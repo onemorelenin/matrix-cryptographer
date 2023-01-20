@@ -1,13 +1,13 @@
 from random import randint
 
-message =input("Write the message: ")
+message = input("Write the message: ")
 length = len(message)
 
 if not length:
 	print("Error: message is not found")
 	raise SystemExit
 
-try: matrixLength =int(input("Matrix length: "))
+try: matrixLength = int(input("Matrix length: "))
 except ValueError: 
 	print("Error: only int number")
 	raise SystemExit
